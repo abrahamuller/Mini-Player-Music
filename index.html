@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player | Abraham Muller</title>
+  <link rel="stylesheet" href="bootstrap5.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        <div class="container">
+        <h1 class="py-5">Hello!!<br><strong class="my-name">I'm Abraham Muller</strong> <br><em>a fullstack dev.</em></h1>
+        <p class="artist fnt py-3">Today i want to show you a mini playlist music built in Javascript.<br>
+        You can downlaod the project <a class="download" href="" >&nbsp;<img src="images/github-brands.svg" class="img-fluid size-imagex"> Github &nbsp;&nbsp;</a></p>
+        <div class="row col-12 col-lg-6 text-center pt-5">
+          <div class="col-3 col-lg-3">
+            <a href="https://github.com/abrahamuller" target="_blank" class="label"><img src="images/github-brands.svg" class="img-fluid size-image"></a>
+          </div>
+          <div class="col-3 col-lg-3">
+            <a href="https://abrahamuller.github.io" target="_blank" class="label"><img src="images/github-square-brands.svg" class="img-fluid size-image"></a>
+          </div>
+          <div class="col-3 col-lg-3">
+            <a href="https://www.linkedin.com/in/abraham-muller-470071201/" target="_blank" class="label"><img src="images/linkedin-brands.svg" class="img-fluid size-image"></a>
+          </div>
+          <div class="col-3 col-lg-3">
+            <a href="https://twitter.com/Fkabrams" target="_blank" class="label"><img src="images/twitter-brands.svg" class="img-fluid size-image"></a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <!-- player card here  -->
+        <div class="wrapper container">
+            <div class="top-bar">
+              <i class="material-icons">expand_more</i>
+              <span><strong>Made by Abraham</strong> </span>
+              <i class="material-icons">more_horiz</i>
+            </div>
+            <div class="img-area">
+              <img src="" alt="">
+            </div>
+            <div class="song-details">
+              <p class="name"></p>
+              <p class="artist"></p>
+            </div>
+            <div class="progress-area">
+              <div class="progress-bar">
+                <audio id="main-audio" src=""></audio>
+              </div>
+              <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">0:00</span>
+              </div>
+            </div>
+            <div class="controls">
+              <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+              <i id="prev" class="material-icons">skip_previous</i>
+              <div class="play-pause">
+                <i class="material-icons play">play_arrow</i>
+              </div>
+              <i id="next" class="material-icons">skip_next</i>
+              <i id="more-music" class="material-icons">queue_music</i>
+            </div>
+            <div class="music-list">
+              <div class="header">
+                <div class="row">
+                  <i class= "list material-icons">queue_music</i>
+                  <span>Music list</span>
+                </div>
+                <i id="close" class="material-icons">close</i>
+              </div>
+              <ul>
+              </ul>
+            </div>
+            <p align="center">Let enjoy the music with<br> <strong>Abraham Muller</strong> </p>
+          </div>
+        <!-- card player end here -->
+      </div>
+    </div>
+  <script src="js/music-list.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
